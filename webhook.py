@@ -15,7 +15,7 @@ from tempmail import TempMail
 
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = getenv("TOKEN")
+TELEGRAM_TOKEN = getenv("8104653263:AAGBJug5XeN09C4h-bkjTjdSDwzHNJHB9vc")
 APP_BASE_URL = getenv("APP_BASE_URL")
 
 storage = MemoryStorage()
