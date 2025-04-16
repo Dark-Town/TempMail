@@ -16,7 +16,7 @@ from tempmail import TempMail
 logger = logging.getLogger(__name__)
 
 TELEGRAM_TOKEN = getenv("8104653263:AAGBJug5XeN09C4h-bkjTjdSDwzHNJHB9vc")
-APP_BASE_URL = getenv("APP_BASE_URL")
+APP_BASE_URL = getenv("postgresql://hermit_r6st_user:PPoTaAlHXaTUXbV1w82Y4JCFV4XSbpIW@dpg-cvr97rjuibrs73ae6tn0-a.oregon-postgres.render.com/hermit_r6st")
 
 storage = MemoryStorage()
 bot = Bot(token=TELEGRAM_TOKEN, parse_mode="HTML")
